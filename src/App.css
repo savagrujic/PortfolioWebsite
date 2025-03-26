@@ -23,6 +23,16 @@ header {
   
 }
 
+.income-expense {
+  margin-top: 10vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+ 
+  
+}
+
+
 .balance {
   text-align: center;
 }
@@ -36,14 +46,7 @@ header {
   font-weight: bold;
   color: gray;
 }
-.income-expense {
-  margin-top: 10vh;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
- 
-  
-}
+
 
 .income {
   background-color: white;
@@ -149,4 +152,42 @@ header {
 }
 .pmoney {
   font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+  .main {
+    margin-top: 10vh;
+    display: block;
+  }
+
+  .income-expense {
+    display: block;
+    margin-top: -10vh;
+    margin-left: 25vw;
+  
+  
+    
+  }
+
+  .income,.expense {
+    margin: 20px 0;
+  }
+
+  .popup {
+    height: 50vh;
+    width: 60vw;
+
+    .buttonwrapper {
+      margin-top: 10px;
+      margin-left: -10px;
+    }
+  }
+  .popupwrapper {
+    margin-left: 40px;
+  }
+  .chart {
+    margin-bottom: 20vh;
+    margin-top: 10vh;
+    margin-left: 5vh;
+  }
 }
