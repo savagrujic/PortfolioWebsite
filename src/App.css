@@ -1,0 +1,152 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+   font-family: "Roboto", sans-serif;
+
+}
+
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 25px;
+}
+
+
+.main {
+  margin-top: 10vh;
+  display: flex;
+  justify-content: space-around ;
+  
+}
+
+.balance {
+  text-align: center;
+}
+
+.money {
+  margin-top: 3vh;
+  font-size: 2em;
+  font-weight: bold;
+}
+.balancetext {
+  font-weight: bold;
+  color: gray;
+}
+.income-expense {
+  margin-top: 10vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+ 
+  
+}
+
+.income {
+  background-color: white;
+  width: 40vw;
+  min-height: 10vh;
+  padding: 10px;
+  border: 1px black solid;
+  border-radius: 10px;
+}
+
+.expense {
+  border-radius: 10px;
+  border: 1px black solid;
+  width: 40vw;
+  min-height: 10vh;
+  padding: 10px;
+
+}
+.cetnertransaction {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+
+.popup {
+  position: absolute;
+  height: 45vh;
+  width: 35vw;
+  top: 30%;
+  left: 50%;
+  background-color: rgb(255, 255, 255);
+  transform: translate(-50%, -50%);
+  z-index: 101;
+  display: flex;
+  justify-content: center;
+
+  border-radius: 10px;
+}
+.gray {
+  position: absolute;
+  background-color: rgb(0, 0, 0);
+  height: 100vh;
+  width: 100vw;
+  z-index: 100;
+  opacity: 50%;
+}
+.p1 {
+  font-weight: bold;
+  margin-bottom: 1vh;
+}
+
+.in1 {
+  margin-bottom: 4vh;
+  padding: 3px 5px;
+  width: 30vw;
+  height: 4vh;
+  border: none;
+  border: 1px solid black;
+}
+.buttonwrapper {
+  margin-left: 22vw;
+  margin-top: -30px;
+  button {
+    margin: 7px;
+    padding: 6px;
+  }
+}
+.titlepopup {
+  margin-top: 2vh;
+  margin-bottom: 5vh;
+  font-size: 1.2em;
+}
+.radiowrapper {
+  input {
+    margin: 3px;
+  }
+}
+.transactionbutton {
+  background-color: rgb(94, 94, 255);
+  font-weight: bold;
+  border: none;
+  font-size: 0.9em;
+  padding: 15px;
+  border-radius: 10px;
+  transition: 0.2s;
+
+}
+.transactionbutton:hover {
+  cursor: pointer;
+  background-color: rgb(106, 106, 255);
+}
+
+.div1 {
+  margin-top: 10px;
+  background-color: rgb(255, 226, 226);
+  border-radius: 10px;
+}
+.div2 {
+  margin-top: 10px;
+  background-color: rgb(226, 235, 255);
+  border-radius: 10px;
+}
+.pmoney {
+  font-weight: bold;
+}
