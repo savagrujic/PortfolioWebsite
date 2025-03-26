@@ -139,12 +139,12 @@ header {
 
 .div1 {
   margin-top: 10px;
-  background-color: rgb(255, 226, 226);
+  background-color: rgb(226, 235, 255);
   border-radius: 10px;
 }
 .div2 {
   margin-top: 10px;
-  background-color: rgb(226, 235, 255);
+  background-color: rgb(255, 226, 226);
   border-radius: 10px;
 }
 .pmoney {
